@@ -88,11 +88,15 @@
     background: none;
 }
 
-div.col-lg-12{
+div.border{
     border: 5px solid #f78378;
     border-radius: 3px;
     padding: 25px;
     margin: 10px;
+}
+
+div.title{
+    text-align: center;
 }
 
 @media(min-width:768px) {
@@ -120,5 +124,18 @@ div.col-lg-12{
     #wrapper.toggled #page-content-wrapper {
         position: relative;
         margin-right: 0;
+    }
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
     }
 }
