@@ -1,39 +1,42 @@
 /*PetRescueByJudy.com Fonts*/
 @font-face {
     font-family: 'angelfaceregular';
-    src: url('angelface.eot');
-    src: url('angelface.eot?#iefix') format('embedded-opentype'),
-         url('angelface.woff2') format('woff2'),
-         url('angelface.woff') format('woff'),
-         url('angelface.ttf') format('truetype'),
-         url('angelface.svg#angelfaceregular') format('svg');
+    src: url('../fonts/angelface.eot');
+    src: url('../fonts/angelface.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/angelface.woff2') format('woff2'),
+         url('../fonts/angelface.woff') format('woff'),
+         url('../fonts/angelface.ttf') format('truetype'),
+         url('../fonts/angelface.svg#angelfaceregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotobold';
-    src: url('roboto-bold.eot');
-    src: url('roboto-bold.eot?#iefix') format('embedded-opentype'),
-         url('roboto-bold.woff2') format('woff2'),
-         url('roboto-bold.woff') format('woff'),
-         url('roboto-bold.ttf') format('truetype'),
-         url('roboto-bold.svg#angelfaceregular') format('svg');
+    src: url('../fonts/roboto-bold.eot');
+    src: url('../fonts/roboto-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold.woff2') format('woff2'),
+         url('../fonts/roboto-bold.woff') format('woff'),
+         url('../fonts/roboto-bold.ttf') format('truetype'),
+         url('../fonts/roboto-bold.svg#angelfaceregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'robotoregular';
-    src: url('roboto-regualar.eot');
-    src: url('roboto-regualar.eot?#iefix') format('embedded-opentype'),
-         url('roboto-regualar.woff2') format('woff2'),
-         url('roboto-regualar.woff') format('woff'),
-         url('roboto-regualar.ttf') format('truetype'),
-         url('roboto-regualar.svg#angelfaceregular') format('svg');
+    src: url('../fonts/roboto-regular.eot');
+    src: url('../fonts/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular.woff2') format('woff2'),
+         url('../fonts/roboto-regular.woff') format('woff'),
+         url('../fonts/roboto-regular.ttf') format('truetype'),
+         url('../fonts/roboto-regular.svg#angelfaceregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
+}
+h1, h2{
+    font-family: 'robotobold';
 }
 
 #wrapper {
@@ -135,6 +138,16 @@ div.border{
 
 div.title{
     text-align: center;
+    font-family: 'robotobold';
+}
+
+div.title p{
+    text-align: center;
+    font-family: 'robotoregular';
+}
+
+div p{
+    font-family: 'robotoregular';
 }
 
 @media(min-width:768px) {
