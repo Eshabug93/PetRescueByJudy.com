@@ -1,3 +1,41 @@
+/*PetRescueByJudy.com Fonts*/
+@font-face {
+    font-family: 'angelfaceregular';
+    src: url('angelface.eot');
+    src: url('angelface.eot?#iefix') format('embedded-opentype'),
+         url('angelface.woff2') format('woff2'),
+         url('angelface.woff') format('woff'),
+         url('angelface.ttf') format('truetype'),
+         url('angelface.svg#angelfaceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold.eot');
+    src: url('roboto-bold.eot?#iefix') format('embedded-opentype'),
+         url('roboto-bold.woff2') format('woff2'),
+         url('roboto-bold.woff') format('woff'),
+         url('roboto-bold.ttf') format('truetype'),
+         url('roboto-bold.svg#angelfaceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regualar.eot');
+    src: url('roboto-regualar.eot?#iefix') format('embedded-opentype'),
+         url('roboto-regualar.woff2') format('woff2'),
+         url('roboto-regualar.woff') format('woff'),
+         url('roboto-regualar.ttf') format('truetype'),
+         url('roboto-regualar.svg#angelfaceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
