@@ -71,7 +71,7 @@ h3.regular{
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #000;
+    background: #58b9b7;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -112,13 +112,14 @@ h3.regular{
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: white;
+;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
+    color: white;
+    background: #f78378;
 }
 
 .sidebar-nav li a:active,
@@ -133,7 +134,7 @@ h3.regular{
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999999;
+    color: #d9534f;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
